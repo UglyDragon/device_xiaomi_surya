@@ -150,6 +150,14 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     RemovePackages
 
+# QTI common
+TARGET_COMMON_QTI_COMPONENTS := \
+    av \
+    bt \
+    perf \
+    telephony \
+    wfd
+
 # Telephony
 PRODUCT_PACKAGES += \
     ims-ext-common \
